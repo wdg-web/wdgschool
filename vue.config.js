@@ -17,6 +17,7 @@ module.exports = {
             }
         }
     },
+
     chainWebpack: config => {
         const svgRule = config.module.rule('svg');
         // 清除已有的所有 loader。

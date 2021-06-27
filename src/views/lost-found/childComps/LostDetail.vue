@@ -28,9 +28,6 @@ export default {
     props: {
         lostFounds: {
             type: Array,
-            // default() {
-            //   return []
-            // }
         },
     },
     data() {
